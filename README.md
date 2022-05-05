@@ -1,6 +1,4 @@
-## 安装
-```
-composer require tp5er/think-auths 1.0-alpha
+
 ```
 ## 基础user表
 ~~~
