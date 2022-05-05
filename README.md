@@ -1,5 +1,4 @@
 
-```
 ## 基础user表
 ~~~
 CREATE TABLE `user` (
@@ -18,6 +17,8 @@ CREATE TABLE `user` (
   UNIQUE KEY `user_phone_unique` (`phone`) USING HASH
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 ~~~
+
+
 >考虑已有的数据库字段密码字段就不是`password`那么解决方案来了
 >
 >```
