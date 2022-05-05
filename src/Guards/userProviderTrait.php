@@ -1,19 +1,19 @@
 <?php
 
 
-namespace tp5er\think\auths\Guards;
+namespace tp5er\think\auth\Guards;
 
 use InvalidArgumentException;
 use think\facade\Db;
 use think\helper\Arr;
-use tp5er\think\auths\Model\User;
-use tp5er\think\auths\UserProvider\DatabaseUserProvider;
-use tp5er\think\auths\UserProvider\ModelUserProvider;
-use tp5er\think\auths\UserProvider\UserProvider;
+use tp5er\think\auth\Model\User;
+use tp5er\think\auth\UserProvider\DatabaseUserProvider;
+use tp5er\think\auth\UserProvider\ModelUserProvider;
+use tp5er\think\auth\UserProvider\UserProvider;
 
 /**
  * Trait userProviderTrait
- * @package tp5er\think\auths\Guards
+ * @package tp5er\think\auth\Guards
  */
 trait userProviderTrait
 {

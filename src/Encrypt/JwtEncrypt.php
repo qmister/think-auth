@@ -1,13 +1,13 @@
 <?php
 
-namespace tp5er\think\auths\Encrypt;
+namespace tp5er\think\auth\Encrypt;
 
 use Firebase\JWT\JWT;
 use Firebase\JWT\Key;
 
 /**
  * Class JwtEncrypt
- * @package tp5er\think\auths\Encrypt
+ * @package tp5er\think\auth\Encrypt
  */
 class JwtEncrypt implements EncryptInterface
 {

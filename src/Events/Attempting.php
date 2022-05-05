@@ -1,10 +1,10 @@
 <?php
 
-namespace tp5er\think\auths\Events;
+namespace tp5er\think\auth\Events;
 
 /**
  * Class Attempting
- * @package tp5er\think\auths\Events
+ * @package tp5er\think\auth\Events
  */
 class Attempting
 {

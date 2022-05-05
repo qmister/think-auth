@@ -1,7 +1,7 @@
 <?php
 
 
-namespace tp5er\think\auths\UserProvider;
+namespace tp5er\think\auth\UserProvider;
 
 use think\contract\Arrayable;
 use think\db\BaseQuery;
@@ -10,8 +10,8 @@ use think\db\exception\DbException;
 use think\db\exception\ModelNotFoundException;
 use think\helper\Str;
 use think\Model;
-use tp5er\think\auths\Contracts\Authenticatable;
-use tp5er\think\auths\Model\Field;
+use tp5er\think\auth\Contracts\Authenticatable;
+use tp5er\think\auth\Model\Field;
 
 
 

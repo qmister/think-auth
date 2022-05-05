@@ -1,6 +1,6 @@
 <?php
 
-namespace tp5er\think\auths\Http\Validates;
+namespace tp5er\think\auth\Http\Validates;
 
 use think\Validate;
 

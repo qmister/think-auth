@@ -1,10 +1,10 @@
 <?php
 
-namespace tp5er\think\auths;
+namespace tp5er\think\auth;
 
 use think\Manager;
-use tp5er\think\auths\Contracts\Guard;
-use tp5er\think\auths\Contracts\StatefulGuard;
+use tp5er\think\auth\Contracts\Guard;
+use tp5er\think\auth\Contracts\StatefulGuard;
 
 
 class AuthManager extends Manager

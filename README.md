@@ -22,13 +22,13 @@ CREATE TABLE `user` (
 >考虑已有的数据库字段密码字段就不是`password`那么解决方案来了
 >
 >```
->\tp5er\think\auths\Model\Field::$password='pwd';
+>\tp5er\think\auth\Model\Field::$password='pwd';
 >```
 
 >在provider中使用`model`,需要做一下操作
 >
 >1. 创建User模型
->2. 模型继承 tp5er\think\auths\Model\User`
+>2. 模型继承 tp5er\think\auth\Model\User`
 
 ## Auth常用方法
 ~~~

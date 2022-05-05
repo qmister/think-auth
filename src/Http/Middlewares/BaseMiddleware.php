@@ -1,18 +1,18 @@
 <?php
 
-namespace tp5er\think\auths\Http\Middlewares;
+namespace tp5er\think\auth\Http\Middlewares;
 
 use Closure;
 use Firebase\JWT\BeforeValidException;
 use Firebase\JWT\ExpiredException;
 use Firebase\JWT\SignatureInvalidException;
-use tp5er\think\auths\JwtAuthManager;
-use tp5er\think\auths\Traits\RequestToken;
-use tp5er\think\auths\Traits\ResponseData;
+use tp5er\think\auth\JwtAuthManager;
+use tp5er\think\auth\Traits\RequestToken;
+use tp5er\think\auth\Traits\ResponseData;
 
 /**
  * Class BaseMiddleware
- * @package tp5er\think\auths\Http\Middlewares
+ * @package tp5er\think\auth\Http\Middlewares
  */
 abstract class BaseMiddleware
 {

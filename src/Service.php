@@ -1,8 +1,8 @@
 <?php
 
-namespace tp5er\think\auths;
+namespace tp5er\think\auth;
 
-use tp5er\think\auths\Password\Password;
+use tp5er\think\auth\Password\Password;
 
 
 class Service extends \think\Service

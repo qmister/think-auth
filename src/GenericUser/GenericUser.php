@@ -1,12 +1,12 @@
 <?php
 
-namespace tp5er\think\auths\GenericUser;
+namespace tp5er\think\auth\GenericUser;
 
-use tp5er\think\auths\Model\Field;
+use tp5er\think\auth\Model\Field;
 
 /**
  * Class GenericUser
-* @package tp5er\think\auths\GenericUser
+* @package tp5er\think\auth\GenericUser
  */
 class GenericUser extends GenericUserAbstract
 {

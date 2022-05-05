@@ -1,12 +1,12 @@
 <?php
 
-namespace tp5er\think\auths\GenericUser;
+namespace tp5er\think\auth\GenericUser;
 
-use tp5er\think\auths\Contracts\Authenticatable;
+use tp5er\think\auth\Contracts\Authenticatable;
 
 /**
  * Class GenericUserAbstract
-* @package tp5er\think\auths\GenericUser
+* @package tp5er\think\auth\GenericUser
  */
 abstract class GenericUserAbstract implements Authenticatable
 {

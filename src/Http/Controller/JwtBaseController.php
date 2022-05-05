@@ -1,19 +1,19 @@
 <?php
 
-namespace tp5er\think\auths\Http\Controller;
+namespace tp5er\think\auth\Http\Controller;
 
 use Psr\SimpleCache\InvalidArgumentException;
 use think\Request;
 use think\Response;
-use tp5er\think\auths\Events\Registered;
-use tp5er\think\auths\Http\Validates\UserValidate;
-use tp5er\think\auths\JwtAuthManager;
-use tp5er\think\auths\Traits\ResponseData;
-use tp5er\think\auths\Traits\ThinkValidate;
+use tp5er\think\auth\Events\Registered;
+use tp5er\think\auth\Http\Validates\UserValidate;
+use tp5er\think\auth\JwtAuthManager;
+use tp5er\think\auth\Traits\ResponseData;
+use tp5er\think\auth\Traits\ThinkValidate;
 
 /**
  * Class JwtBaseController
- * @package tp5er\think\auths\Http\Controller
+ * @package tp5er\think\auth\Http\Controller
  */
 abstract class JwtBaseController
 {
@@ -40,7 +40,7 @@ abstract class JwtBaseController
      * @param Request $request
      * @return Response
      * @throws InvalidArgumentException
-     * @throws \tp5er\think\auths\Exceptions\LoginException
+     * @throws \tp5er\think\auth\Exceptions\LoginException
      */
     public function login(Request $request)
     {
@@ -66,7 +66,7 @@ abstract class JwtBaseController
      * @param Request $request
      * @return string
      * @throws \Psr\SimpleCache\InvalidArgumentException
-     * @throws \tp5er\think\auths\Exceptions\LoginException
+     * @throws \tp5er\think\auth\Exceptions\LoginException
      */
     public function register(Request $request)
     {

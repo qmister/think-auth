@@ -1,8 +1,8 @@
 <?php
 
-namespace tp5er\think\auths\Password;
+namespace tp5er\think\auth\Password;
 
-use tp5er\think\auths\Contracts\Authenticatable;
+use tp5er\think\auth\Contracts\Authenticatable;
 
 
 

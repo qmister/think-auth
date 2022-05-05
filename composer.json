@@ -1,5 +1,5 @@
 {
-  "name": "tp5er/think-auths",
+  "name": "tp5er/think-auth",
   "license": "MIT",
   "description": "thinkphp 用户认证 Auth",
   "type": "library",

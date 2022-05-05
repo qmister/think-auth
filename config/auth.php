@@ -22,7 +22,7 @@ return [
             'driver'   => 'session',
             'provider' => [
                 'driver' => 'model',
-                'model'  => \tp5er\think\auths\Model\User::class,
+                'model'  => \tp5er\think\auth\Model\User::class,
             ],
         ],
     ],

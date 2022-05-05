@@ -1,6 +1,6 @@
 <?php
 
-namespace tp5er\think\auths\Traits;
+namespace tp5er\think\auth\Traits;
 
 use think\helper\Str;
 

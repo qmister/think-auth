@@ -1,13 +1,13 @@
 <?php
 
-namespace tp5er\think\auths\Events;
+namespace tp5er\think\auth\Events;
 
 use think\Event;
-use tp5er\think\auths\Contracts\Authenticatable;
+use tp5er\think\auth\Contracts\Authenticatable;
 
 /**
  * Trait GuardEvent
- * @package tp5er\think\auths\Events
+ * @package tp5er\think\auth\Events
  */
 trait GuardEvent
 {

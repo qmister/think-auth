@@ -1,6 +1,6 @@
 <?php
 
-namespace tp5er\think\auths\Support;
+namespace tp5er\think\auth\Support;
 
 use think\helper\Str;
 

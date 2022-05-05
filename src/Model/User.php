@@ -1,9 +1,9 @@
 <?php
 
-namespace tp5er\think\auths\Model;
+namespace tp5er\think\auth\Model;
 
 use think\Model;
-use tp5er\think\auths\Contracts\Authenticatable as AuthenticatableContract;
+use tp5er\think\auth\Contracts\Authenticatable as AuthenticatableContract;
 
 
 class User extends Model implements AuthenticatableContract

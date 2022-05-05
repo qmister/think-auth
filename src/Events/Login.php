@@ -1,12 +1,12 @@
 <?php
 
-namespace tp5er\think\auths\Events;
+namespace tp5er\think\auth\Events;
 
-use tp5er\think\auths\Contracts\Authenticatable;
+use tp5er\think\auth\Contracts\Authenticatable;
 
 /**
  * Class Login
- * @package tp5er\think\auths\Events
+ * @package tp5er\think\auth\Events
  */
 class Login
 {

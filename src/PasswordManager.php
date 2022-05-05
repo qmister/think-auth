@@ -1,11 +1,11 @@
 <?php
 
-namespace tp5er\think\auths;
+namespace tp5er\think\auth;
 
 use LogicException;
 use think\App;
-use tp5er\think\auths\Contracts\Authenticatable;
-use tp5er\think\auths\Password\PasswordInterface;
+use tp5er\think\auth\Contracts\Authenticatable;
+use tp5er\think\auth\Password\PasswordInterface;
 
 
 class PasswordManager

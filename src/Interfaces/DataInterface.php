@@ -1,10 +1,10 @@
 <?php
 
-namespace tp5er\think\auths\Interfaces;
+namespace tp5er\think\auth\Interfaces;
 
 /**
  * Interface DataInterface
- * @package tp5er\think\auths\Interfaces
+ * @package tp5er\think\auth\Interfaces
  */
 interface DataInterface
 {

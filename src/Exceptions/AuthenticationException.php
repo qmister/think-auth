@@ -1,12 +1,12 @@
 <?php
 
-namespace tp5er\think\auths\Exceptions;
+namespace tp5er\think\auth\Exceptions;
 
 use Exception;
 
 /**
  * Class AuthenticationException
- * @package tp5er\think\auths\Exceptions
+ * @package tp5er\think\auth\Exceptions
  */
 class AuthenticationException extends Exception
 {

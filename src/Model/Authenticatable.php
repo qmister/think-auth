@@ -1,10 +1,10 @@
 <?php
 
-namespace tp5er\think\auths\Model;
+namespace tp5er\think\auth\Model;
 
 /**
  * Trait Authenticatable
- * @package tp5er\think\auths\Model
+ * @package tp5er\think\auth\Model
  */
 trait Authenticatable
 {

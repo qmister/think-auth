@@ -1,12 +1,12 @@
 <?php
 
 
-namespace tp5er\think\auths\Facades;
+namespace tp5er\think\auth\Facades;
 
 use think\Facade;
-use tp5er\think\auths\Contracts\Authenticatable;
-use tp5er\think\auths\Contracts\Guard;
-use tp5er\think\auths\Contracts\StatefulGuard;
+use tp5er\think\auth\Contracts\Authenticatable;
+use tp5er\think\auth\Contracts\Guard;
+use tp5er\think\auth\Contracts\StatefulGuard;
 
 /**
  * Class Auth

@@ -1,6 +1,6 @@
 <?php
 
-namespace tp5er\think\auths\UserProvider;
+namespace tp5er\think\auth\UserProvider;
 
 use think\contract\Arrayable;
 use think\db\ConnectionInterface;
@@ -8,9 +8,9 @@ use think\db\exception\DataNotFoundException;
 use think\db\exception\DbException;
 use think\db\exception\ModelNotFoundException;
 use think\helper\Str;
-use tp5er\think\auths\Contracts\Authenticatable;
-use tp5er\think\auths\GenericUser\GenericUser;
-use tp5er\think\auths\Model\Field;
+use tp5er\think\auth\Contracts\Authenticatable;
+use tp5er\think\auth\GenericUser\GenericUser;
+use tp5er\think\auth\Model\Field;
 
 
 

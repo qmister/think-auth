@@ -1,10 +1,10 @@
 <?php
 
-namespace tp5er\think\auths\Model;
+namespace tp5er\think\auth\Model;
 
 /**
  * Class Field
- * @package tp5er\think\auths\Model
+ * @package tp5er\think\auth\Model
  */
 class Field
 {

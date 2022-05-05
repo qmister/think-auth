@@ -1,7 +1,7 @@
 <?php
 
 
-namespace tp5er\think\auths\Traits;
+namespace tp5er\think\auth\Traits;
 
 use BadMethodCallException;
 use Closure;

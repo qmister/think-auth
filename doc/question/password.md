@@ -3,7 +3,7 @@
 可以使用`Password`进行加密验证，默认采用的`password_hash`和`password_verify`进行加密验证，如果需要自己生成可以自己实现
 
 ```
-use tp5er\think\auths\Facades\Password;
+use tp5er\think\auth\Facades\Password;
 //加密
 Password::encrypt($password);
 //验证
@@ -15,8 +15,8 @@ Password::verify(Authenticatable $user, string $password)
 1. 创建一个md5类去实现PasswordInterface中的encrypt和verify方法
 
  ~~~
- namespace tp5er\think\auths\Password;
- use tp5er\think\auths\Contracts\Authenticatable;
+ namespace tp5er\think\auth\Password;
+ use tp5er\think\auth\Contracts\Authenticatable;
  class Md5 implements PasswordInterface
  {
   /**
@@ -48,7 +48,7 @@ Password::verify(Authenticatable $user, string $password)
 return [
 .............
 // 自定义密码验证
-'password' => \tp5er\think\auths\Password\Md5::class,
+'password' => \tp5er\think\auth\Password\Md5::class,
 .............
 ];
  ~~~

@@ -1,11 +1,11 @@
 <?php
 
-namespace tp5er\think\auths\UserProvider;
+namespace tp5er\think\auth\UserProvider;
 
-use tp5er\think\auths\Contracts\Authenticatable;
-use tp5er\think\auths\GenericUser\GenericUser;
-use tp5er\think\auths\Model\Field;
-use tp5er\think\auths\Password\PasswordInterface;
+use tp5er\think\auth\Contracts\Authenticatable;
+use tp5er\think\auth\GenericUser\GenericUser;
+use tp5er\think\auth\Model\Field;
+use tp5er\think\auth\Password\PasswordInterface;
 
 
 abstract class UserProvider

@@ -1,10 +1,10 @@
 <?php
 
-namespace tp5er\think\auths\Encrypt;
+namespace tp5er\think\auth\Encrypt;
 
 /**
  * Interface EncryptInterface
- * @package tp5er\think\auths\Encrypt
+ * @package tp5er\think\auth\Encrypt
  */
 interface EncryptInterface
 {

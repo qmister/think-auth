@@ -1,20 +1,20 @@
 <?php
 
 
-namespace tp5er\think\auths\Guards;
+namespace tp5er\think\auth\Guards;
 
 use think\App;
 use think\Event;
 use think\Request;
-use tp5er\think\auths\Contracts\StatefulGuard;
-use tp5er\think\auths\Events\GuardEvent;
-use tp5er\think\auths\Password\PasswordInterface;
-use tp5er\think\auths\Traits\Macroable;
-use tp5er\think\auths\UserProvider\UserProvider;
+use tp5er\think\auth\Contracts\StatefulGuard;
+use tp5er\think\auth\Events\GuardEvent;
+use tp5er\think\auth\Password\PasswordInterface;
+use tp5er\think\auth\Traits\Macroable;
+use tp5er\think\auth\UserProvider\UserProvider;
 
 /**
  * Class Guard
- * @package tp5er\think\auths\Guards
+ * @package tp5er\think\auth\Guards
  */
 abstract class Guard implements StatefulGuard
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace tp5er\think\auths;
+namespace tp5er\think\auth;
 
 use Psr\SimpleCache\CacheInterface;
 use Psr\SimpleCache\InvalidArgumentException;
 use think\App;
-use tp5er\think\auths\Exceptions\LoginException;
-use tp5er\think\auths\Guards\Guard;
-use tp5er\think\auths\Support\Payload;
-use tp5er\think\auths\Traits\RequestToken;
+use tp5er\think\auth\Exceptions\LoginException;
+use tp5er\think\auth\Guards\Guard;
+use tp5er\think\auth\Support\Payload;
+use tp5er\think\auth\Traits\RequestToken;
 
 
 class JwtAuthManager

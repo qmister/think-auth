@@ -1,13 +1,13 @@
 <?php
 
-namespace tp5er\think\auths\Facades;
+namespace tp5er\think\auth\Facades;
 
 use think\Facade;
-use tp5er\think\auths\Contracts\Authenticatable;
+use tp5er\think\auth\Contracts\Authenticatable;
 
 /**
  * Class Password
- * @package tp5er\think\auths\Facades
+ * @package tp5er\think\auth\Facades
  * @method static string encrypt(string $password)
  * @method static bool verify(Authenticatable $user, string $password)
  */

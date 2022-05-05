@@ -1,16 +1,16 @@
 <?php
 
-namespace tp5er\think\auths\Guards;
+namespace tp5er\think\auth\Guards;
 
 use think\Cookie;
 use think\helper\Str;
 use think\Session;
-use tp5er\think\auths\Contracts\Authenticatable;
-use tp5er\think\auths\Support\Recaller;
+use tp5er\think\auth\Contracts\Authenticatable;
+use tp5er\think\auth\Support\Recaller;
 
 /**
  * Class SessionGuard
- * @package tp5er\think\auths\Guards
+ * @package tp5er\think\auth\Guards
  */
 class SessionGuard extends Guard
 {

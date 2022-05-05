@@ -1,10 +1,10 @@
 <?php
 
-namespace tp5er\think\auths\Contracts;
+namespace tp5er\think\auth\Contracts;
 
 /**
  * Interface StatefulGuard
- * @package tp5er\think\auths\Contracts
+ * @package tp5er\think\auth\Contracts
  */
 interface StatefulGuard extends Guard
 {

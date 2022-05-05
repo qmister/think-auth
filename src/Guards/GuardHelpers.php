@@ -1,13 +1,13 @@
 <?php
 
-namespace tp5er\think\auths\Guards;
+namespace tp5er\think\auth\Guards;
 
-use tp5er\think\auths\Contracts\Authenticatable;
-use tp5er\think\auths\Exceptions\AuthenticationException;
+use tp5er\think\auth\Contracts\Authenticatable;
+use tp5er\think\auth\Exceptions\AuthenticationException;
 
 /**
  * Trait GuardHelpers
- * @package tp5er\think\auths\Guards
+ * @package tp5er\think\auth\Guards
  */
 trait GuardHelpers
 {

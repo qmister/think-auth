@@ -1,6 +1,6 @@
 <?php
 
-namespace tp5er\think\auths\Http\Handles;
+namespace tp5er\think\auth\Http\Handles;
 
 use InvalidArgumentException;
 use think\db\exception\DbException;
@@ -15,11 +15,11 @@ use think\exception\RouteNotFoundException;
 use think\exception\ValidateException;
 use think\Response;
 use Throwable;
-use tp5er\think\auths\Traits\ResponseData;
+use tp5er\think\auth\Traits\ResponseData;
 
 /**
  * Class JwtApiHandle
- * @package tp5er\think\auths\Http\Handles
+ * @package tp5er\think\auth\Http\Handles
  */
 class ApiHandle extends Handle
 {

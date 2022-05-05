@@ -1,12 +1,12 @@
 <?php
 
-namespace tp5er\think\auths;
+namespace tp5er\think\auth;
 
 use InvalidArgumentException;
 use think\App;
-use tp5er\think\auths\Encrypt\EncryptInterface;
-use tp5er\think\auths\Encrypt\JwtEncrypt;
-use tp5er\think\auths\Support\Payload;
+use tp5er\think\auth\Encrypt\EncryptInterface;
+use tp5er\think\auth\Encrypt\JwtEncrypt;
+use tp5er\think\auth\Support\Payload;
 
 
 class JwtFactory

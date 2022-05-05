@@ -1,6 +1,6 @@
 <?php
 
-namespace tp5er\think\auths\Http\Middlewares;
+namespace tp5er\think\auth\Http\Middlewares;
 
 use Closure;
 use think\Config;
@@ -9,7 +9,7 @@ use think\Response;
 
 /**
  * Class AllowCrossDomain
- * @package tp5er\think\auths\Http\Middlewares
+ * @package tp5er\think\auth\Http\Middlewares
  */
 class AllowCrossDomain
 {

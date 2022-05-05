@@ -1,12 +1,12 @@
 <?php
 
-namespace tp5er\think\auths\Contracts;
+namespace tp5er\think\auth\Contracts;
 
-use tp5er\think\auths\Interfaces\DataInterface;
+use tp5er\think\auth\Interfaces\DataInterface;
 
 /**
  * Interface Authenticatable
- * @package tp5er\think\auths\Contracts
+ * @package tp5er\think\auth\Contracts
  */
 interface Authenticatable extends DataInterface
 {

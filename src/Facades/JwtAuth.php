@@ -1,16 +1,16 @@
 <?php
 
-namespace tp5er\think\auths\Facades;
+namespace tp5er\think\auth\Facades;
 
 use think\Facade;
-use tp5er\think\auths\Contracts\Authenticatable;
-use tp5er\think\auths\Guards\Guard;
-use tp5er\think\auths\JwtAuthManager;
-use tp5er\think\auths\Support\Payload;
+use tp5er\think\auth\Contracts\Authenticatable;
+use tp5er\think\auth\Guards\Guard;
+use tp5er\think\auth\JwtAuthManager;
+use tp5er\think\auth\Support\Payload;
 
 /**
  * Class JwtAuth
- * @package tp5er\think\auths\Facades
+ * @package tp5er\think\auth\Facades
  * @method static JwtAuthManager setAuth($name = null)
  * @method static Guard auth()
  * @method static JwtAuthManager setToken($token)
